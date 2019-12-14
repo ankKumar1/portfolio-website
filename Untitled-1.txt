@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Demo web template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="body">
+<!--navigation bar-->
+<div class="navbar">
+   <ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">Team</a></li>
+  <li><a href="#contact">Register</a></li>
+  <li><a href="#about">About us</a></li>
+  <li><a href="#Project">Project</a></li>
+</ul>
+
