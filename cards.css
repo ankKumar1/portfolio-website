@@ -1,4 +1,4 @@
-a:link,a:visited{
+.content a:link,.content a:visited{
   padding:7px 7px;
   color:white;
   background-color: black;
@@ -7,7 +7,7 @@ a:link,a:visited{
   display:inline-block;
 }
 
-  a:active,a:hover{
+.content a:active,.content a:hover{
     color:white;
     background-color:rgba(0, 110, 255, 0.788);
   }
@@ -15,12 +15,12 @@ a:link,a:visited{
 div{
   padding:20px;
 }
-.right{
+.top, .right{
   margin:0 0 0 60%;
 width: 400px;
-height: 200px;
+height: 250px;
 padding: 20px;
-background-color:white;
+background-color:rgb(250, 249, 249);
 box-shadow: 15px 15px 5px grey;
 border-radius:15px;
 text-align:center;
@@ -31,22 +31,9 @@ color:rgb(0, 0, 0);
   .left{
 
 width: 400px;
-height: 200px;
+height: 250px;
 padding: 20px;
-background-color:white;
-box-shadow: 15px 15px 5px grey;
-border-radius:15px;
-text-align:center;
-font-family: Arial;
-font-size: 20px;
-color:rgb(0, 0, 0);
-}
-.top{
-margin:0 0 0 60%;
-width: 400px;
-height: 200px;
-padding: 20px;
-background-color:white;
+background-color:rgb(250, 249, 249);
 box-shadow: 15px 15px 5px grey;
 border-radius:15px;
 text-align:center;
@@ -58,10 +45,10 @@ color:rgb(0, 0, 0);
 .boxy{
 
 margin:20px auto;
-width: 700px;
-height: 400px;
+width: 800px;
+height: 450px;
 padding: 20px;
-background-color:white;
+background-color:rgb(162, 220, 247);
 box-shadow: 15px 15px 5px grey;
 border-radius:15px;
 text-align:center;
