@@ -4,22 +4,44 @@
 <title>Demo web template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="C:\Users\User\Documents\portfolio\navbar.css">
-<link rel="stylesheet" href="C:\Users\User\Documents\portfolio\cards.css">
-<link rel="stylesheet" href="C:\Users\User\Documents\portfolio\cardsprototype.css">
-<script src="https://kit.fontawesome.com/71bbbee385.js"></script>
+<link rel="stylesheet" href="navbar.css">
+<link rel="stylesheet" href="cards.css">
+<link rel="stylesheet" href="cardsprototype.css">
+
 </head>
 
 <body class="body">
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+
 <!--navigation bar-->
 <div class="navbar">
-   <ul class="ntop">
-     <li><a href="#home">Home</a></li>
-     <li><a href="#news">Team</a></li>
-     <li><a href="#contact">Register</a></li>
-     <li><a href="#Project">Project</a></li>
-     <li><a href="#about">About us</a></li>
-   </ul>
+  <div class="col s2 dropdown">
+  <a href="#home" class="nbutton posn">  Home</a>
+  </div>
+
+  <div class="col s2 dropdown">
+      <a href="#" class="nbutton posn"> Clubs </a>
+  <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+      <a href="#">Link 4</a>
+      <a href="#">More</a>
+  </div>
+  </div>
+  
+  <div class="col s3">
+  <a href="#register" class="nbutton posn" >Register</a>
+  </div>
+
+  <div class="col s3">
+      <a href="#project" class="nbutton posn" >Project</a>
+      </div>
+  
+  <div class="col s3">
+  <a href="#about" class="nbutton posn"  >About us</a>
+  </div>
 </div>
 
 
@@ -74,36 +96,29 @@
 
 
 <!--our projects-->
-<div class="op">
-<div class="proj">
+<div class="op" target="_blank">
+<div class="proj" id="project">
   <h2>Our Projects</h2>
 </div>
-<div class="first">
-  <img src="C:\Users\User\Documents\portfolio\captain_meliodas.jpg" alt="one" style="width:150px;height:150px" >
-  this is a prototype<br>
-  <a href="#">
-    EXPLORE</a>
+<div class="first" target="_blank">
+  <img src="captain_meliodas.jpg" alt="one" >
+  title<br>
 </div>
 
-<div class="second">
- <img src="C:\Users\User\Documents\portfolio\captain_meliodas.jpg" alt="one" style="width:150px;height:150px">
+<div class="second" target="_blank">
+ <img src="captain_meliodas.jpg" alt="one">
   this is second <br>
-  <a href="#">
-    EXPLORE</a>
 </div>
 
-<div class="third">
-  <img src="C:\Users\User\Documents\portfolio\captain_meliodas.jpg" alt="one" style="width:150px;height:150px">
-  this is the third<br>
-  <a href="#">
-    EXPLORE</a> 
+<div class="third" target="_blank">
+  <img src="captain_meliodas.jpg" alt="one" >
+  this is the third<br> 
 </div>
 
 <div class="fourth">
-  <img src="C:\Users\User\Documents\portfolio\captain_meliodas.jpg" alt="one" style="width:150px;height:150px">
+  <a href="default.asp" target="_blank">
+  <img src="captain_meliodas.jpg" alt="one"></a>
   this is the fourth<br>
-  <a href="#">
-    EXPLORE</a>
 </div>
 </div>
 
@@ -120,11 +135,11 @@
 
   <div class="fcolumn">
     <h2>Follow us on</h2>
-    <i class="fab fa-facebook"></i>
-    <i class="fab fa-instagram"></i>
-    <i class="fab fa-twitter"></i>
-    <i class="fab fa-linkedin"></i>
-    <i class="fab fa-google-plus-square"></i>
+    <a href="default.asp" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+    <a href="default.asp" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+    <a href="default.asp" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+    <a href="default.asp" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+    <a href="default.asp" target="_blank"><ion-icon name="mail"></ion-icon></a>
   </div>
 
 
